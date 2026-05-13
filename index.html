@@ -14,8 +14,7 @@
 
     body {
       min-height: 100vh;
-      /*
-      background: linear-gradient(135deg, #ff9ecf, #b58cff, #8cc8ff);*/
+     
       background: linear-gradient(135deg, #FFD1DC 0%, #FFB6C1 100%);
       overflow-x: hidden;
       position: relative;
@@ -188,13 +187,13 @@
       50% { transform: translateY(-15px); }
     }
 
-/* Контейнер для падающих элементов */
+
 .falling-emoji {
     position: fixed;
-    top: -50px; /* Появляются за пределами экрана сверху */
+    top: -50px; 
     z-index: 9999;
     user-select: none;
-    pointer-events: none; /* Пропускают клики сквозь себя */
+    pointer-events: none; 
     animation: fall linear forwards;
     filter: drop-shadow(0 0 5px rgba(255, 100, 100, 0.4));
 }
@@ -215,7 +214,7 @@
     }
     100% {
         transform: translateY(110vh) rotate(360deg) translateX(0);
-        opacity: 0; /* Полностью исчезают в самом низу */
+        opacity: 0;
     }
 }
 
@@ -262,9 +261,13 @@
 
   <div class="header">
      
-      <h1 style="color: #5D4037 ;">С Днём Рождения!</h1>
+      <h1 style="color: #5D4037 ;">С достижением новой высоты!</h1>
       <p style="color:  #5D4037;">
-        Пусть этот день будет наполнен счастьем, улыбками, подарками и самыми яркими моментами!
+       🥂 Иронично-эстетичный
+Поздравляю с твоим персональным Новым Годом! Пусть 
+твой личный календарь ведет отсчет только по дням абсолютного счастья. 
+<br>Ты — как коллекционное вино: с каждой ежегодной выдержкой
+ становишься только дороже, статуснее и круче. 
       </p>
 
      
@@ -317,7 +320,7 @@
       } else {
         startScreen.style.display = 'none';
       }
-    });
+    }); 
 
     
 function createEmoji() {
